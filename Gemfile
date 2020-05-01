@@ -10,6 +10,7 @@ def location_for(place, fake_version = nil)
   end
 end
 
+gem 'facterdb', :git => 'https://github.com/mmoll/facterdb.git', :branch => 'ubu20'
 group :test do
   gem 'voxpupuli-test', '>= 1.0.0',  :require => false
   gem 'coveralls',                   :require => false
